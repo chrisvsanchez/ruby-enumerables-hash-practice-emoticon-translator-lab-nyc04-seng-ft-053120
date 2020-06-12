@@ -10,6 +10,7 @@ result = YAML.load_file(file_path)
     hash[feeling] = {english: moji[0], japanese: moji[1] } 
 end
 hash
+binding.pry
 end
 
 def get_english_meaning(file_path, emoticon)
